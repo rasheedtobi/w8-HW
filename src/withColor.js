@@ -1,7 +1,7 @@
-
-
-
 import React, { useState } from 'react';
+
+// Higher Order
+
 const withColor = (WrappedComponent) => {
 const WithColor = (props) => {
 const [isOn, setIsOn] = useState(false);
