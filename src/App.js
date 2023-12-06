@@ -1,11 +1,13 @@
-import './App.css';
+// App.js
+import React from 'react';
+import ColorButton from './ColorButton'; // Correct the import statement
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <hi1>Add your code here!</hi1>
+    <div>
+      <ColorButton />
     </div>
   );
-}
+};
 
 export default App;
