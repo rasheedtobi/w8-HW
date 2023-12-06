@@ -1,6 +1,6 @@
-// App.js
+
 import React from 'react';
-import ColorButton from './ColorButton'; // Correct the import statement
+import ColorButton from './ColorButton'; 
 
 const App = () => {
   return (

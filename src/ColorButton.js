@@ -1,6 +1,6 @@
 
 import React from 'react';
-import withColor from './withColor'; // Correct the import statement
+import withColor from './withColor'; 
 
 const ColorButton = ({ isOn, toggle }) => {
   const handleClick = () => {
@@ -15,4 +15,4 @@ const ColorButton = ({ isOn, toggle }) => {
   )
 }
 
-export default withColor(ColorButton); // Correct the function name in the export statement
+export default withColor(ColorButton); 
