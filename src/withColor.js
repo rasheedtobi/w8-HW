@@ -2,15 +2,15 @@
 // import React from 'react';
 
 import React, { useState } from 'react';
-const withToggle = (WrappedComponent) => {
-const WithToggle = (props) => {
+const withColor = (WrappedComponent) => {
+const WithColor = (props) => {
 const [isOn, setIsOn] = useState(false);
 const toggle = () => {
 setIsOn((prevIsOn) => !prevIsOn);
 };
 return <WrappedComponent isOn={isOn} toggle={toggle} {...props} />;
 };
-return WithToggle;
+return WithColor;
 };
 
-export default withToggle; 
+export default withColor; 
